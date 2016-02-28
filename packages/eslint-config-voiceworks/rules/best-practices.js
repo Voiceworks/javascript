@@ -60,8 +60,6 @@ module.exports = {
     'no-invalid-this': 0,
     // disallow usage of __iterator__ property
     'no-iterator': 2,
-    // disallow use of labels for anything other then loops and switches
-    'no-labels': [2, { 'allowLoop': false, 'allowSwitch': false }],
     // disallow unnecessary nested blocks
     'no-lone-blocks': 2,
     // disallow creation of functions within loops
